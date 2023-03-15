@@ -1,7 +1,7 @@
 # [Front End Development Libraries - freecodecamp](https://www.freecodecamp.org/learn/front-end-development-libraries/)
 ![Lines of Code](https://img.shields.io/tokei/lines/github.com/Krasipeace/Front-End-Development-Libraries---freecodecamp)
 ![Last commit](https://img.shields.io/github/last-commit/Krasipeace/Front-End-Development-Libraries---freecodecamp)
-[![CodeFactor](https://www.codefactor.io/repository/github/krasipeace/Front-End-Development-Libraries---freecodecamp/badge)](https://www.codefactor.io/repository/github/krasipeace/responsive-web-design---freecodecamp)
+[![CodeFactor](https://www.codefactor.io/repository/github/krasipeace/front-end-development-libraries---freecodecamp/badge)](https://www.codefactor.io/repository/github/krasipeace/front-end-development-libraries---freecodecamp)
 
 Now that you're familiar with HTML, CSS, and JavaScript, level up your skills by learning some of the most popular front end libraries in the industry.
 
