@@ -11,39 +11,19 @@ Later, you'll build a shopping cart and other applications to learn how to creat
 
 ### Exercises:
 
-| | Bootstrap | jQuery | SASS | React | Redux | React and Redux |  
-| ---: | :--- | :--- | :--- | :--- | :--- | :--- |
-| 1 | Cat Photo App | jQueryPlayground | Store Data |      |      |      | 
-| 2 | jQuery Playground |      | Nest Css   |      |      |      |
-| 3 |         |      | Mixins     |      |      |      |
-| 4 |         |      | @if-@else  |      |      |      |
-| 5 |         |      | @for       |      |      |      |
-| 6 |         |      | @each      |      |      |      |
-| 7 |         |      | @while     |      |      |      |
-| 8 |         |      | Partials   |      |      |      |
-| 9 |         |      | Extends    |      |      |      |
-| 10 |        |      |      |      |      |      |
-| 11 |        |      |      |      |      |      |
-| 12 |        |      |      |      |      |      |
-| 13 |        |      |      |      |      |      |
-| 14 |        |      |      |      |      |      |
-| 15 |        |      |      |      |      |      |
-| 16 |        |      |      |      |      |      |
-| 17 |        |      |      |      |      |      |
-| 18 |        |      |      |      |      |      |
-| 19 |        |      |      |      |      |      |
-| 20 |        |      |      |      |      |      |
-| 21 |        |      |      |      |      |      |
-| 22 |        |      |      |      |      |      |
-| 23 |        |      |      |      |      |      |
-| 24 |        |      |      |      |      |      |
-| 25 |        |      |      |      |      |      |
-| 26 |        |      |      |      |      |      |
-| 27 |        |      |      |      |      |      |
-| 28 |        |      |      |      |      |      |
-| 29 |        |      |      |      |      |      |
-| 30 |        |      |      |      |      |      |
-| 31 |        |      |      |      |      |      |
+| | Bootstrap & jQuery | SASS | React | Redux | React and Redux |  
+| ---: | :--- | :--- | :--- | :--- | :--- | 
+| 1 | Cat Photo App |  Store Data | JSX Elements | States | Getting Started | 
+| 2 | jQuery Playground | Nest Css | Components  | Actions | Manage State Locally First |
+| 3 |         | Mixins    | Props | Arrays | Extract State Logic to Redux |
+| 4 |         | @if-@else | States | Objects | Use Provider to Connect Redux to React |
+| 5 |         | @for      | Lifecycles |      | Map State to Props |
+| 6 |         | @each     | Conditions |      | Map Dispatch to Props |
+| 7 |         | @while    | Arrays     |      | Connect Redux to React |
+| 8 |         | Partials  |      |      | Connect Redux to the Messages App |
+| 9 |         | Extends   |      |      | Extract Local State into Redux |
+| 10 |        |           |      |      | Moving Forward From Here |
+
 
 
 ### Projects:
