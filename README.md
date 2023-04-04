@@ -13,8 +13,8 @@ Later, you'll build a shopping cart and other applications to learn how to creat
 
 | | Bootstrap | jQuery | SASS | React | Redux | React and Redux |  
 | ---: | :--- | :--- | :--- | :--- | :--- | :--- |
-| 1 | Cat Photo App |      | Store Data |      |      |      | 
-| 2 |         |      | Nest Css   |      |      |      |
+| 1 | Cat Photo App | jQueryPlayground | Store Data |      |      |      | 
+| 2 | jQuery Playground |      | Nest Css   |      |      |      |
 | 3 |         |      | Mixins     |      |      |      |
 | 4 |         |      | @if-@else  |      |      |      |
 | 5 |         |      | @for       |      |      |      |
