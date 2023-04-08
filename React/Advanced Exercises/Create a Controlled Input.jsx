@@ -1,10 +1,11 @@
 class ControlledInput extends React.Component {
     constructor(props) {
-      super(props);
-      this.state = {
-        input: ''
-      };
-      
+        super(props);
+        this.state = {
+            input: ''
+        };
+        this.handleChange = this.handleChange.bind(this);
+        this.submit = this.submit.bind(this);
     }
 
     handleChange(event) {
@@ -24,8 +25,8 @@ class ControlledInput extends React.Component {
         <div>
             <input value={this.state.input} onChange={this.handleChange.bind(this)}/>
             <button onClick={this.submit.bind(this)}>Submit!</button>
-          <h4>Controlled Input:</h4>
-          <p>{this.state.input}</p>
+            <h4>Controlled Input:</h4>
+            <p>{this.state.input}</p>
         </div>
       );
     }
