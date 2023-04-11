@@ -15,7 +15,7 @@ Later, you'll build a shopping cart and other applications to learn how to creat
 | ---: | :--- | :--- | :--- | :--- | :--- | 
 | 1 | Cat Photo App |  Store Data | JSX Elements | States | Getting Started | 
 | 2 | jQuery Playground | Nest Css | Components  | Actions | Manage State Locally First |
-| 3 |         | Mixins    | Props | Arrays | Extract State Logic to Redux |
+| 3 |         | Mixins    | Hooks | Arrays | Extract State Logic to Redux |
 | 4 |         | @if-@else | States | Objects | Use Provider to Connect Redux to React |
 | 5 |         | @for      | Conditions     |      | Map State to Props |
 | 6 |         | @each     | Adv. exercises |      | Map Dispatch to Props |
