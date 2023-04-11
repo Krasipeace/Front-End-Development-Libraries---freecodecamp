@@ -13,16 +13,16 @@ Later, you'll build a shopping cart and other applications to learn how to creat
 
 | | Bootstrap & jQuery | SASS | React | Redux | React and Redux |  
 | ---: | :--- | :--- | :--- | :--- | :--- | 
-| 1 | Cat Photo App |  Store Data | JSX Elements | States | Getting Started | 
-| 2 | jQuery Playground | Nest Css | Components  | Actions | Manage State Locally First |
-| 3 |         | Mixins    | Hooks | Arrays | Extract State Logic to Redux |
-| 4 |         | @if-@else | States | Objects | Use Provider to Connect Redux to React |
-| 5 |         | @for      | Conditions     |      | Map State to Props |
-| 6 |         | @each     | Adv. exercises |      | Map Dispatch to Props |
-| 7 |         | @while    |      |      | Connect Redux to React |
-| 8 |         | Partials  |      |      | Connect Redux to the Messages App |
-| 9 |         | Extends   |      |      | Extract Local State into Redux |
-| 10 |        |           |      |      | Moving Forward From Here |
+| 1 | Cat Photo App     | Store Data | JSX Elements | Actions | Getting Started | 
+| 2 | jQuery Playground | Nest Css   | Components   | Counter App | Manage State Locally First |
+| 3 |                   | Mixins    | Hooks      | States | Extract State Logic to Redux |
+| 4 |                   | @if-@else | States     | Objects | Use Provider to Connect Redux to React |
+| 5 |                   | @for      | Conditions     |     | Map State to Props |
+| 6 |                   | @each     | Adv. exercises |     | Map Dispatch to Props |
+| 7 |                   | @while    |      |      | Connect Redux to React |
+| 8 |                   | Partials  |      |      | Connect Redux to the Messages App |
+| 9 |                   | Extends   |      |      | Extract Local State into Redux |
+| 10 |      |      |    |      | Moving Forward From Here |
 
 
 
