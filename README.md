@@ -69,4 +69,3 @@ Later, you'll build a shopping cart and other applications to learn how to creat
 [31]: https://github.com/Krasipeace/Front-End-Development-Libraries---freecodecamp/blob/main/React%20and%20Redux/Extract%20Local%20State%20into%20Redux.jsx
 [32]: https://github.com/Krasipeace/Front-End-Development-Libraries---freecodecamp/blob/main/React%20and%20Redux/Moving%20Forward%20From%20Here.jsx
 
-
