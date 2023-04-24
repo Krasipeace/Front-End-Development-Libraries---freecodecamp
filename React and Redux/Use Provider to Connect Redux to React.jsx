@@ -76,5 +76,5 @@ class AppWrapper extends React.Component {
                 <DisplayMessages />
             </Provider>
         )
-    };
+    }
 }

@@ -26,6 +26,6 @@ class MyComponent extends React.Component {
                     <button onClick={this.toggleDisplay}>Toggle Display</button>
                 </div>
             );
-        };
-    };
+        }
+    }
 }
