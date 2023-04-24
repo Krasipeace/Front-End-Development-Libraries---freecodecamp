@@ -9,7 +9,7 @@ class CampSite extends React.Component {
         </div>
       );
     }
-  };
+  }
 
 const Camper = (props) => {
     return (
@@ -21,8 +21,8 @@ const Camper = (props) => {
 
 Camper.defaultProps = {
     name: 'CamperBot'
-};
+}
 
 Camper.propTypes = {
     name: PropTypes.string.isRequired
-};
+}

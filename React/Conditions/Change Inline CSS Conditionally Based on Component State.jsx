@@ -27,4 +27,4 @@ class GateKeeper extends React.Component {
         </div>
       );
     }
-};
+}

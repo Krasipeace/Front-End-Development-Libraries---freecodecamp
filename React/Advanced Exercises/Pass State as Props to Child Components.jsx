@@ -12,7 +12,7 @@ class MyApp extends React.Component {
          </div>
       );
     }
-  };
+  }
   
   class Navbar extends React.Component {
     constructor(props) {
@@ -25,4 +25,4 @@ class MyApp extends React.Component {
       </div>
       );
     }
-  };
+  }

@@ -4,7 +4,7 @@ const CurrentDate = (props) => {
         <p>The current date is: {props.date}</p>
       </div>
     );
-  };
+  }
   
   class Calendar extends React.Component {
     constructor(props) {
@@ -18,6 +18,6 @@ const CurrentDate = (props) => {
         </div>
       );
     }
-  };
+  }
 
 ReactDOM.render(<Calendar />, document.getElementById('root'))

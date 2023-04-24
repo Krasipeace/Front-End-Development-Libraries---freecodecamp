@@ -13,7 +13,7 @@ class Fruits extends React.Component {
         </div>
       );
     }
-};
+}
   
 class TypesOfFood extends React.Component {
     constructor(props) {
@@ -28,4 +28,4 @@ class TypesOfFood extends React.Component {
         </div>
       );
     }
-};
+}

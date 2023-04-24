@@ -30,4 +30,4 @@ class MyForm extends React.Component {
         </div>
       );
     }
-  }
+}

@@ -12,4 +12,4 @@ class StatefulComponent extends React.Component {
         </div>
       );
     }
-};
+}

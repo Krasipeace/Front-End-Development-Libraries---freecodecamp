@@ -5,4 +5,4 @@ class Colorful extends React.Component {
             <div style={styles}>Style Me!</div>
         );
     }
-};
+}

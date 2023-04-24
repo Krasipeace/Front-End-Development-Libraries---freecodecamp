@@ -5,5 +5,6 @@ class App extends React.Component {
     render() {
       return <div/>
     }
-  };
+  }
+  
 ReactDOMServer.renderToString(<App />);

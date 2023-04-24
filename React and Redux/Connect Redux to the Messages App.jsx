@@ -6,7 +6,7 @@ const addMessage = (message) => {
     type: ADD,
     message: message
   }
-};
+}
 
 const messageReducer = (state = [], action) => {
   switch (action.type) {
@@ -18,7 +18,7 @@ const messageReducer = (state = [], action) => {
     default:
       return state;
   }
-};
+}
 
 const store = Redux.createStore(messageReducer);
 
@@ -66,12 +66,12 @@ class Presentational extends React.Component {
       </div>
     );
   }
-};
+}
 
 // React-Redux:
 const mapStateToProps = (state) => {
   return { messages: state }
-};
+}
 
 const mapDispatchToProps = (dispatch) => {
   return {
@@ -79,7 +79,7 @@ const mapDispatchToProps = (dispatch) => {
        dispatch(addMessage(newMessage))
     }
   }
-};
+}
 
 const Provider = ReactRedux.Provider;
 const connect = ReactRedux.connect;
@@ -98,4 +98,4 @@ class AppWrapper extends React.Component {
             </Provider>
         );
     }
-};
+}

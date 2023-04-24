@@ -5,6 +5,6 @@ const mapStateToProps = (state) => {
     return {
         messages: state
     }
-};
+}
 
 console.log(mapStateToProps(state));

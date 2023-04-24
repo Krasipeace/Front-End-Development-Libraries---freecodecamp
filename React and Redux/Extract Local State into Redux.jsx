@@ -6,7 +6,7 @@ const addMessage = (message) => {
     type: ADD,
     message: message
   }
-};
+}
 
 const messageReducer = (state = [], action) => {
   switch (action.type) {
@@ -18,7 +18,7 @@ const messageReducer = (state = [], action) => {
     default:
       return state;
   }
-};
+}
 
 const store = Redux.createStore(messageReducer);
 
@@ -66,11 +66,11 @@ class Presentational extends React.Component {
             </div>
         );
     }
-};
+}
 
 const mapStateToProps = (state) => {
     return {messages: state}
-};
+}
 
 const mapDispatchToProps = (dispatch) => {
     return {
@@ -78,7 +78,7 @@ const mapDispatchToProps = (dispatch) => {
         dispatch(addMessage(message))
         }
     }
-};
+}
 
 const Container = connect(mapStateToProps, mapDispatchToProps)(Presentational);
 
@@ -90,4 +90,4 @@ class AppWrapper extends React.Component {
         </Provider>
         );
     }
-};
+}

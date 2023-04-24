@@ -13,7 +13,7 @@ class Results extends React.Component {
             )
         }
     }
-  }
+}
   
   class GameOfChance extends React.Component {
         constructor(props) {

@@ -6,7 +6,7 @@ const addMessage = (message) => {
     type: ADD,
     message
   }
-};
+}
 
 const messageReducer = (state = [], action) => {
   switch (action.type) {
@@ -18,7 +18,7 @@ const messageReducer = (state = [], action) => {
     default:
       return state;
   }
-};
+}
 
 const store = Redux.createStore(messageReducer);
 
@@ -66,7 +66,7 @@ class DisplayMessages extends React.Component {
       </div>
     );
   }
-};
+}
 
 const Provider = ReactRedux.Provider;
 class AppWrapper extends React.Component {

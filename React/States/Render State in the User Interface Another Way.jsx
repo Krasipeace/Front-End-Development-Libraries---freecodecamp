@@ -13,4 +13,4 @@ class MyComponent extends React.Component {
         </div>
       );
     }
-};
+}

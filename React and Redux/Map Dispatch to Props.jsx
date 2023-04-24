@@ -3,7 +3,7 @@ const addMessage = (message) => {
         type: 'ADD',
         message: message
     }
-};
+}
 
 const mapDispatchToProps = (dispatch) => {
     return {
@@ -11,6 +11,6 @@ const mapDispatchToProps = (dispatch) => {
             dispatch(addMessage(message));
         }
     }
-};
+}
 
 const store = Redux.createStore(mapDispatchToProps());

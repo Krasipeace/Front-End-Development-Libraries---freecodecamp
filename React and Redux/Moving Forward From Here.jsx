@@ -10,13 +10,13 @@ import App from './components/App'
 const store = configureStore(
   rootReducer,
   applyMiddleware(thunk)
-);
+)
 
 ReactDOM.render(
   <Provider store={store}>
     <App/>
   </Provider>,
   document.getElementById('root')
-);
+)
 
 console.log('Now I know React and Redux!')

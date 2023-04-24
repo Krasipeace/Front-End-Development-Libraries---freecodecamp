@@ -37,4 +37,4 @@ class Counter extends React.Component {
         </div>
       );
     }
-};
+}

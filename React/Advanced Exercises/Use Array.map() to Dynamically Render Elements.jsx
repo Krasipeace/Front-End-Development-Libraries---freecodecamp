@@ -43,4 +43,4 @@ const textAreaStyles = {
         </div>
       );
     }
-  }
+}

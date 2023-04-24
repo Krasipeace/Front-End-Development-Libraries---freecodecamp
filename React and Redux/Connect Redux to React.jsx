@@ -3,13 +3,13 @@ const addMessage = (message) => {
         type: 'ADD',
         message: message
     }
-};
-  
+}
+
 const mapStateToProps = (state) => {
     return {
         messages: state
     }
-};
+}
   
 const mapDispatchToProps = (dispatch) => {
     return {
@@ -17,7 +17,7 @@ const mapDispatchToProps = (dispatch) => {
             dispatch(addMessage(message));
         }
     }
-};
+}
   
 class Presentational extends React.Component {
         constructor(props) {
@@ -26,7 +26,7 @@ class Presentational extends React.Component {
         render() {
             return <h3>This is a Presentational Component</h3>
         }
-};
+}
   
 const connect = ReactRedux.connect;
 
@@ -43,4 +43,4 @@ class AppWrapper extends React.Component {
             </Provider>
         );
     }
-};
+}

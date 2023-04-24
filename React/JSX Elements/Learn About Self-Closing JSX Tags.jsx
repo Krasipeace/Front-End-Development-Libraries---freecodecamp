@@ -4,4 +4,4 @@ const JSX = (
       <p>Be sure to close all tags!</p>
       <hr />
     </div>
-  );
+);

@@ -18,4 +18,4 @@ const ChildComponent = () => {
         </div>
       );
     }
-  };
+  }

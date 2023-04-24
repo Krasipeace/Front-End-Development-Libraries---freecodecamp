@@ -13,4 +13,4 @@ const Items = (props) => {
     render() {
       return <Items  quantity={10}/>
     }
-  };
+  }

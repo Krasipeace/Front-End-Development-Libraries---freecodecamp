@@ -1,6 +1,6 @@
 const List = (props) => {
     return <p>{props.tasks.join(", ")}</p>
-  };
+  }
   
   class ToDo extends React.Component {
     constructor(props) {
@@ -17,6 +17,6 @@ const List = (props) => {
         </div>
       );
     }
-  };
+  }
 
 ReactDOM.render(<ToDo />, document.getElementById('root'))

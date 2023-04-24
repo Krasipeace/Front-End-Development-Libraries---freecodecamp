@@ -19,7 +19,7 @@ class MyApp extends React.Component {
             </div>
         );
     }
-  };
+  }
   
   class GetInput extends React.Component {
     constructor(props) {
@@ -35,7 +35,7 @@ class MyApp extends React.Component {
         </div>
       );
     }
-  };
+  }
   
   class RenderInput extends React.Component {
     constructor(props) {
@@ -49,4 +49,4 @@ class MyApp extends React.Component {
         </div>
       );
     }
-  };
+  }

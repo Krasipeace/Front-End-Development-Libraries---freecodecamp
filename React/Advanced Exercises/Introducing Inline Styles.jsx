@@ -4,4 +4,4 @@ class Colorful extends React.Component {
             <div style={{color: "red", fontSize: 72}}>Big Red</div>
         );
     }
-};
+}
