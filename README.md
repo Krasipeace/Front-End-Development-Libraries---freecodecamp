@@ -26,11 +26,11 @@ Later, you'll build a shopping cart and other applications to learn how to creat
 ### Projects:
 |  | Name | Preview |
 | ---: | :--- | :---: |
-| 1 | Random Quote Machine  | demo |
-| 2 | Markdown Previewer    | demo |
-| 3 | Drum Machiine         | demo |
-| 4 | JavaScript Calculator | demo |
-| 5 | 25 + 5 Clock          | demo |
+| 1 | [Random Quote Machine][33]  | demo |
+| 2 | [Markdown Previewer][34]    | demo |
+| 3 | [Drum Machine][35]          | demo |
+| 4 | [JavaScript Calculator][36] | demo |
+| 5 | [25 + 5 Clock][37]          | demo |
 
 [1]: https://github.com/Krasipeace/Front-End-Development-Libraries---freecodecamp/blob/main/Bootstrap%20and%20jQuery/CatPhotoApp.html
 [2]: https://github.com/Krasipeace/Front-End-Development-Libraries---freecodecamp/blob/main/Bootstrap%20and%20jQuery/jQueryPlayground.html
@@ -69,3 +69,8 @@ Later, you'll build a shopping cart and other applications to learn how to creat
 [31]: https://github.com/Krasipeace/Front-End-Development-Libraries---freecodecamp/blob/main/React%20and%20Redux/Extract%20Local%20State%20into%20Redux.jsx
 [32]: https://github.com/Krasipeace/Front-End-Development-Libraries---freecodecamp/blob/main/React%20and%20Redux/Moving%20Forward%20From%20Here.jsx
 
+[33]: https://github.com/Krasipeace/Front-End-Development-Libraries---freecodecamp/blob/main/Random%20Quote%20Machine
+[34]: https://github.com/Krasipeace/Front-End-Development-Libraries---freecodecamp/blob/main/Markdown%20Previewer
+[35]: https://github.com/Krasipeace/Front-End-Development-Libraries---freecodecamp/blob/main/Drum%20Machine
+[36]: https://github.com/Krasipeace/Front-End-Development-Libraries---freecodecamp/blob/main/Javascript%20Calculator
+[37]: https://github.com/Krasipeace/Front-End-Development-Libraries---freecodecamp/blob/main/25plus5%20Clock
