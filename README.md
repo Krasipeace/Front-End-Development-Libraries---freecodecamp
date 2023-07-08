@@ -28,7 +28,7 @@ Later, you'll build a shopping cart and other applications to learn how to creat
 | ---: | :--- | :---: |
 | 1 | [Random Quote Machine][33]  | demo |
 | 2 | [Markdown Previewer][34]    | demo |
-| 3 | [Drum Machine][35]          | demo |
+| 3 | [Drum Machine][35]          | [demo][40] |
 | 4 | [JavaScript Calculator][36] | [demo][41] |
 | 5 | [25 + 5 Clock][37]          | demo |
 
@@ -75,4 +75,5 @@ Later, you'll build a shopping cart and other applications to learn how to creat
 [36]: https://github.com/Krasipeace/Front-End-Development-Libraries---freecodecamp/blob/main/Javascript%20Calculator
 [37]: https://github.com/Krasipeace/Front-End-Development-Libraries---freecodecamp/blob/main/25plus5%20Clock
 
+[40]: https://codepen.io/krasipeace/pen/RwqLdQe
 [41]: https://htmlpreview.github.io/?https://github.com/Krasipeace/Front-End-Development-Libraries---freecodecamp/blob/main/Javascript%20Calculator/index.html
