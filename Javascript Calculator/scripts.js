@@ -12,9 +12,15 @@ function inputNumber(digit) {
         calculator.displayValue = digit;
         calculator.waitingForSecondOperand = false;
     } else {
-        calculator.displayValue = displayValue === '0' 
-            ? digit 
-            : displayValue + digit;
+        if (displayValue === '0' && digit !== '.') {
+            calculator.displayValue = digit;
+        } else {
+            calculator.displayValue = displayValue + digit;
+        }
+    }
+
+    if (calculator.displayValue.match(/^-?\d+(\.\d+)?[*-]\d+(\.\d+)?$/)) {
+        handleOperator(calculator.operator);
     }
 }
 
@@ -25,12 +31,11 @@ function inputDecimal(dot) {
 }
 
 function handleOperator(nextOperator) {
-    const { firstOperand, displayValue, operator } = calculator
+    const { firstOperand, displayValue, operator } = calculator;
     const inputValue = parseFloat(displayValue);
 
-    if (operator && calculator.waitingForSecondOperand)  {
+    if (operator && calculator.waitingForSecondOperand) {
         calculator.operator = nextOperator;
-
         return;
     }
 
@@ -44,6 +49,34 @@ function handleOperator(nextOperator) {
     }
 
     calculator.waitingForSecondOperand = true;
+
+    if (nextOperator === '-' && displayValue === '') {
+        calculator.displayValue = '-';
+        return;
+    } else if (nextOperator === '-' && operator && !displayValue.includes('-')) {
+        calculator.displayValue = '-';
+        calculator.operator = nextOperator;
+        return;
+    }
+
+    if (nextOperator === '=') {
+        if (operator === null) {
+            return;
+        }
+        const currentValue = firstOperand || 0;
+        const result = performCalculation[operator](currentValue, inputValue);
+        calculator.displayValue = String(result);
+        calculator.firstOperand = result;
+        calculator.operator = null;
+        calculator.waitingForSecondOperand = false;
+        return;
+    }
+
+    if (operator && displayValue === '') {
+        calculator.operator = nextOperator;
+        return;
+    }
+
     calculator.operator = nextOperator;
 }
 
