@@ -14,4 +14,4 @@ The calculator also listens for keyboard input using the `document.addEventListe
 
 ## Demo
 
-A demo of the calculator can be found [here](https://codepen.io/krasipeace/pen/bGQovLb).
+A demo of the calculator can be found [here](https://htmlpreview.github.io/?https://github.com/Krasipeace/Front-End-Development-Libraries---freecodecamp/blob/main/Javascript%20Calculator/index.html).
