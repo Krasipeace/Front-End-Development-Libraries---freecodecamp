@@ -38,7 +38,7 @@ center {
 
 button {
   height: 60px;
-  font-size: 3rem!important;
+  font-size: 3rem !important;
   border-radius: 20px;
 }
 
@@ -47,7 +47,6 @@ button {
   color: #020c69;
   border-radius: 20px;
 }
-
 
 .calculator-keys {
   display: grid;

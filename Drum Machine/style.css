@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 28px
+}
+
+#drum-machine {
+    margin: 15px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 40%;
+    display: grid;
+    padding: 10px;
+    grid-gap: 15px;
+    margin-top: 40px;
+    border-radius: 15px;
+    grid-template-columns: 1fr;
+    background-image: linear-gradient(-260deg, #755dd5 35%, #fc05be 100%);
+}
+
+.keyboard {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.keyboard .drum-pad {
+    width: 100%;
+    height: 80px;
+    outline: none;
+    font-size: 24px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: #fc05be;
+    transition: all .3s ease-in-out
+}
+
+.controller {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.controller button {
+    border: none;
+    color: #00bef8;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 8px 10px;
+    border-radius: 5px;
+    background-color: #1d002e;
+}
