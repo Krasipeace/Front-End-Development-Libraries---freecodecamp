@@ -2,10 +2,6 @@
 
 This is a simple timer application that allows you to set a session length and a break length, and then counts down the time for each session and break. The default session length is 25 minutes and the default break length is 5 minutes.
 
-## Getting Started
-
-To start the application simply click [here](https://htmlpreview.github.io/?https://github.com/Krasipeace/Front-End-Development-Libraries---freecodecamp/blob/main/25plus5%20Clock/index.html).
-
 ## How it Works
 
 The 25 + 5 Clock is built using HTML, CSS, and JavaScript. The HTML file contains the structure of the application, including the buttons and the timer display. The CSS file contains the styling for the application, including the colors and fonts. The JavaScript file contains the logic for the application, including the countdown timer and the event listeners for the buttons.
