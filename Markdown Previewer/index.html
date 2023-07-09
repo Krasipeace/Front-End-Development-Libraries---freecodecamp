@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/themes/prism.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Markdown Previewer</title>
+</head>
+
+<body>
+    <div id="app">
+        <div>
+            <div class="editorWrap">
+                <div class="toolbar"><i class="fa fa-free-code-camp" title="no-stack-dub-sack"></i>Editor<i
+                        class="fa fa-arrows-alt"></i></div><textarea id="editor" type="text"></textarea>
+            </div>
+            <div class="converter"></div>
+            <div class="previewWrap">
+                <div class="toolbar"><i class="fa fa-free-code-camp" title="no-stack-dub-sack"></i>Previewer<i
+                        class="fa fa-arrows-alt"></i></div>
+                <div id="preview"></div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p style="text-align: center">&copy;  -
+            <script>document.write(new Date().getFullYear()) </script> | <a href="https://github.com/krasipeace" class="font-effect-fire"> Krasipeace</a>
+        </p>
+    </footer>
+
+    <script crossorigin="" src="https://unpkg.com/react@18.2/umd/react.production.min.js"></script>
+    <script crossorigin="" src="https://unpkg.com/react-dom@18.2/umd/react-dom.production.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/2.0.3/marked.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/prism.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
