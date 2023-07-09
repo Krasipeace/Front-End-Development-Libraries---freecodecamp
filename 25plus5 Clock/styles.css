@@ -1,0 +1,90 @@
+body {
+    background: rgb(2,0,36);
+    color: rgb(166, 212, 0);
+    font-size: 20px;
+    text-align: center;
+    font-family: Orbitron, sans-serif;
+}
+
+body #container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 150px;
+}
+
+body #container .main-title {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+body #container .length-control {
+    width: 250px;
+}
+
+body #container button {
+    background: none;
+    outline: none;
+    border: none;
+    color: rgb(204, 0, 211);
+    cursor: pointer;
+}
+
+body #container .btn-level,
+body #container .length-control {
+    display: inline-block;
+}
+
+body #container .btn-level .btn-level:nth-child(3),
+body #container .length-control .btn-level:nth-child(3) {
+    width: 40px;
+}
+
+body #container .timer {
+    border: 7px solid #f0a400;
+    margin: 20px auto 10px auto;
+    width: 300px;
+    height: 250px;
+    border-radius: 60px;
+    position: relative;
+}
+
+body #container .timer .timer-wrapper {
+    position: absolute;
+    width: 190px;
+    height: 110px;
+    left: 50%;
+    top: 50%;
+    margin-left: -95px;
+    margin-top: -57px;
+}
+
+body #container .timer #time-left {
+    font-size: 50px;
+    color: #ffffff;
+    text-align: center;
+}
+
+body #container .timer .timer-control button:active {
+    color: #02d336;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    color: #00ddff;
+}
+
+@media screen and (max-width: 500px) {
+    #container {
+        transform: scale(0.8);
+        -webkit-transform: scale(0.8);
+        -moz-transform: scale(0.8);
+        -ms-transform: scale(0.8);
+        -o-transform: scale(0.8);
+    }
+}

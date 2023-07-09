@@ -30,7 +30,7 @@ Later, you'll build a shopping cart and other applications to learn how to creat
 | 2 | [Markdown Previewer][34]    | demo |
 | 3 | [Drum Machine][35]          | [demo][40] |
 | 4 | [JavaScript Calculator][36] | [demo][41] |
-| 5 | [25 + 5 Clock][37]          | demo |
+| 5 | [25 + 5 Clock][37]          | [demo][42] |
 
 [1]: https://github.com/Krasipeace/Front-End-Development-Libraries---freecodecamp/blob/main/Bootstrap%20and%20jQuery/CatPhotoApp.html
 [2]: https://github.com/Krasipeace/Front-End-Development-Libraries---freecodecamp/blob/main/Bootstrap%20and%20jQuery/jQueryPlayground.html
@@ -77,3 +77,4 @@ Later, you'll build a shopping cart and other applications to learn how to creat
 
 [40]: https://codepen.io/krasipeace/pen/RwqLdQe
 [41]: https://htmlpreview.github.io/?https://github.com/Krasipeace/Front-End-Development-Libraries---freecodecamp/blob/main/Javascript%20Calculator/index.html
+[42]: https://htmlpreview.github.io/?https://github.com/Krasipeace/Front-End-Development-Libraries---freecodecamp/blob/main/25plus5%20Clock/index.html
