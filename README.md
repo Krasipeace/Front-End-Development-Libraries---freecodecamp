@@ -77,4 +77,4 @@ Later, you'll build a shopping cart and other applications to learn how to creat
 
 [40]: https://codepen.io/krasipeace/pen/RwqLdQe
 [41]: https://htmlpreview.github.io/?https://github.com/Krasipeace/Front-End-Development-Libraries---freecodecamp/blob/main/Javascript%20Calculator/index.html
-[42]: https://htmlpreview.github.io/?https://github.com/Krasipeace/Front-End-Development-Libraries---freecodecamp/blob/main/25plus5%20Clock/index.html
+[42]: https://codepen.io/krasipeace/pen/vYQWNYp
